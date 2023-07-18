@@ -14,3 +14,7 @@ body.light header , body.light .img2 img , body.light .skills , body.light .cont
 body.light .aboutus , body.light .projects , body.light .footer {
   background-color: #FFEDF9;
 }
+
+body.light .texts h2 span::after {
+  background-color: black;
+}
