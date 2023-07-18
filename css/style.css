@@ -14,6 +14,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+*:not(.link a){
+  transition: 0.5s;
+}
+
 span.colormain {
   color: var(--mainColor);
 }
