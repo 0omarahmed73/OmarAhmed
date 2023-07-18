@@ -3,6 +3,9 @@
   caret-color: black;
 }
 
+body.light input[type='submit']:focus , body.light input[type='submit']:hover {
+  color: black;
+}
 body.light .button a  {
   color: white !important;
 }
