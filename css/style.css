@@ -225,7 +225,7 @@ nav .container {
   transform: translateY(-50%);
   left: -35px;
   transition: 0.4s;
- z-index : 200:
+  z-index: 240;
 }
 .chooseColor li {
   list-style: none;
