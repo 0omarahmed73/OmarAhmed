@@ -1,0 +1,14 @@
+:root {
+  --mainColor : #9C27B0;
+  --secionColorOne : #D5D3F8;
+  --secionColorTwo :  #FFEDF9;
+}
+
+ .texts *:not(span), .aboutus *:not(span) , .projects *:not(span , .overlayProject) , .contactus *:not(span , input[type='submit']) , input::placeholder , textarea::placeholder , footer *:not(span){
+  color: black !important;
+  caret-color: black;
+}
+
+.button a  {
+  color: white !important;
+}

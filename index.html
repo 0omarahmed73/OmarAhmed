@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Ahmed - Personal Portfolio</title>
+    <!-- Tailwind -->
+    <link href="css/output.css" rel="stylesheet" />
+    <!-- Hint CSS -->
+    <link rel="stylesheet" href="css/hint.min.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Light Mood -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="overlay"></div>
+      <nav class="navbar">
+        <div class="container m-auto">
+          <div class="logo">
+            <h1>Omar.</h1>
+          </div>
+          <div class="links">
+            <ul
+              class="linkUL flex flex-row gap-5 flex-wrap justify-center lg:block"
+            >
+              <li class="link active" data-link="header"><a href="#">Home</a></li>
+              <li class="link" data-link="aboutus"><a href="#">About</a></li>
+              <li class="link" data-link="skills"><a href="#">Skills</a></li>
+              <li class="link" data-link="projects"><a href="#">Projects</a></li>
+              <li class="link" data-link="contactus"><a href="#">Contact Us</a></li>
+              <i class="fa fa-sun-o link" data-link="footer" aria-hidden="true"></i>
+            </ul>
+          </div>
+          <div class="menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav>
+      <section class="mainPart">
+        <div
+          class="container m-auto flex justify-center items-center lg:flex-row flex-col"
+        >
+          <div class="texts">
+            <h3 class="text-white">Hello, It's Me</h3>
+            <h1>Omar Ahmed</h1>
+            <h2>And I'm <span></span></h2>
+            <p>
+              With a creative mindset and technical expertise in HTML, CSS, and
+              JavaScript, I have the skills needed to design and develop
+              stunning web experiences. Let's work together to bring your vision
+              to life!
+            </p>
+            <div class="lastPart flex lg:flex-col flex-row justify-between">
+              <div class="socialLinks">
+                <a target="_blank" href="https://github.com/0omarahmed73"
+                  ><i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/0omarahmed73"
+                  ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="button lg:mt-2">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/u/0/uc?id=1r4p2VyW4X1sTo4uKajhR_b5UL5n0NURn&export=download"
+                  >Download CV</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <img
+              src="assets/photo_2022-06-27_05-44-48-removebg-preview.png"
+              alt=""
+            />
+            <div class="bg"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Start About Us Section -->
+      <div class="chooseColor">
+        <div class="colors">
+          <li class="color1" data-color="#36D1D1"></li>
+          <li class="color2" data-color="#0AA9EE"></li>
+          <li class="color3" data-color="#9C27B0"></li>
+          <li class="color4" data-color="#880E4F"></li>
+          <li class="color4" data-color="red"></li>
+        </div>
+        <div class="power">
+          <span class="hint--right" aria-label="Select Text Color"
+            ><i class="fa fa-superpowers" aria-hidden="true"></i
+          ></span>
+        </div>
+      </div>
+    </header>
+    <div class="aboutus">
+      <div
+        class="container m-auto flex md:flex-row justify-center flex-col-reverse items-center"
+      >
+        <div class="img2">
+          <img src="assets/new2.png" alt="" />
+        </div>
+        <div class="texts2">
+          <h1>About <span>Me</span></h1>
+          <h2>Frontend Developer!</h2>
+          <p>
+            I'm an accomplished engineering student with expertise in web
+            frontend development, and a strong desire to promote Islamic values
+            in society. With my passion and dedication, I'm confident that I can
+            make a meaningful difference and help advance important causes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Start Skills Section -->
+    <section class="skills">
+      <div class="container m-auto flex flex-col justify-center items-center">
+        <h1>Our <span class="colormain">Coding</span> Skills</h1>
+        <div class="skillsbar">
+          <div class="skill">
+            <p>HTML</p>
+            <div class="bar">
+              <span class="80"></span>
+              <div class="rating"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <p>CSS</p>
+            <div class="bar">
+              <span class="50"></span>
+              <div class="rating"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <p>JavaScript</p>
+            <div class="bar">
+              <span class="30"></span>
+              <div class="rating"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <div class="projects">
+      <div class="container m-auto">
+        <h1><span class="colormain">Lastest </span>Projects</h1>
+        <div class="projectAll grid sm:grid-cols-2 px-5 lg:px-0 lg:grid-cols-3 gap-3 mt-8">
+          <div class="project" data-project="Special Design">
+            <a target="_blank" href="https://0omarahmed73.github.io/Special-Design-Template/"><img src="assets/p1.png" alt="" /></a>
+            <div class="overlayProject"></div>
+          </div>
+          <div class="project" data-project="Taleek">
+            <a href="https://0omarahmed73.github.io/Taleek-Website/" target="_blank" rel="noopener noreferrer"><img src="assets/p3.png" alt="" /></a>
+            <div class="overlayProject"></div>
+          </div>
+          <div class="project" data-project="Intega Cars">
+            <a href="https://0omarahmed73.github.io/Intega/" target="_blank" rel="noopener noreferrer"><img src="assets/p6.png" alt="" /></a>
+            <div class="overlayProject"></div>
+          </div>
+          <div class="project" data-project="XO">
+            <a href="https://0omarahmed73.github.io/XO/" target="_blank" rel="noopener noreferrer"><img src="assets/p2.png" alt="" /></a>
+            <div class="overlayProject"></div>
+          </div>
+          <div class="project" data-project="Azkary">
+            <a href="https://0omarahmed73.github.io/Azkary/" target="_blank" rel="noopener noreferrer"><img src="assets/p4.png" alt="" /></a>
+            <div class="overlayProject"></div>
+          </div>
+          <div class="project" data-project="BoundIt">
+            <a href="https://0omarahmed73.github.io/BoundiT/#" target="_blank" rel="noopener noreferrer"><img src="assets/p5.png" alt="" /></a>
+            <div class="overlayProject"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Contact Us  -->
+    <div class="contactus">
+      <div class="container m-auto">
+        <h1>Contact <span class="colormain">Me!</span></h1>
+        <div class="formContainer">
+          <form action=”mailto:0omarahmed73@gmail.com” method=”POST” enctype=”text/plain”>
+          <div class="inputs grid grid-cols-2 gap-x-3 gap-y-2">
+              <input type="text" name="fname" placeholder="Full Name">
+              <input type="email" name="email" placeholder="Email">
+              <input type="text" name="title" placeholder="Message Title">
+              <input type="number" name="number" placeholder="Contact Number">
+          </div>
+            <textarea name="" id="" placeholder="Your Message"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Start Footer -->
+    <footer class="footer" >
+      <div class="container m-auto">
+        All Copyrights reserved for <span class="colormain">Omar Ahmed </span> <span class="year"></span>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
