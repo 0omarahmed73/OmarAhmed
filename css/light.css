@@ -1,14 +1,16 @@
-:root {
-  --mainColor : #9C27B0;
-  --secionColorOne : #D5D3F8;
-  --secionColorTwo :  #FFEDF9;
-}
-
- .texts *:not(span), .aboutus *:not(span) , .projects *:not(span , .overlayProject) , .contactus *:not(span , input[type='submit']) , input::placeholder , textarea::placeholder , footer *:not(span){
+ body.light .texts *:not(span), body.light .aboutus *:not(span) , body.light .projects *:not(span , .overlayProject) , body.light .contactus *:not(span , input[type='submit']) , body.light input::placeholder , body.light textarea::placeholder , body.light footer *:not(span){
   color: black !important;
   caret-color: black;
 }
 
-.button a  {
+body.light .button a  {
   color: white !important;
+}
+
+body.light header , body.light .img2 img , body.light .skills , body.light .contactus {
+  background-color: #D5D3F8;
+}
+
+body.light .aboutus , body.light .projects , body.light .footer {
+  background-color: #FFEDF9;
 }
