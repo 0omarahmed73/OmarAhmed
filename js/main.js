@@ -14,7 +14,7 @@ if (localStorage.mainColor) {
 }
 //Check for mode choice
 if (localStorage.colorMode){
-  document.querySelector('head').innerHTML = localStorage.colorMode;
+  document.body.className = localStorage.colorMode;
 }
 
 //Color Menu
@@ -124,15 +124,20 @@ document.addEventListener('click', function (e) {
   })
 
   //Toggle Between Modes
-  document.querySelector('.links i').addEventListener('click' , function(){
-    if (!document.querySelector('head').innerHTML.includes(`<link rel="stylesheet" href="css/light.css">`)) {
-      document.querySelector('head').innerHTML += `<link rel="stylesheet" href="css/light.css" />`;
-      console.log('Hello');
-    }
-    else if (document.querySelector('head').innerHTML.includes('<link rel="stylesheet" href="css/light.css">')) {
-      document.querySelector('head').innerHTML = document.querySelector('head').innerHTML.replace('<link rel="stylesheet" href="css/light.css">' , '');
-      console.log('Hi');
-    }
-    localStorage.colorMode = document.querySelector('head').innerHTML;
+  // document.querySelector('.links i').addEventListener('click' , function(){
+  //   if (!document.querySelector('head').innerHTML.includes(`<link rel="stylesheet" href="css/light.css">`)) {
+  //     document.querySelector('head').innerHTML += `<link rel="stylesheet" href="css/light.css" />`;
+  //     console.log('Hello');
+  //   }
+  //   else if (document.querySelector('head').innerHTML.includes('<link rel="stylesheet" href="css/light.css">')) {
+  //     document.querySelector('head').innerHTML = document.querySelector('head').innerHTML.replace('<link rel="stylesheet" href="css/light.css">' , '');
+  //     console.log('Hi');
+  //   }
+  //   localStorage.colorMode = document.querySelector('head').innerHTML;
     
-  });
+  // });
+
+    document.querySelector('.links i').addEventListener('click' , function(){
+      document.body.classList.toggle('light');
+      localStorage.colorMode = document.body.className;
+    })
